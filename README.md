@@ -12,10 +12,13 @@ I can get the IP address, language and operating system for my browser.
 
 ### Sample Result
 ```
+// 20180205183512
+// https://synonymous-origami.glitch.me/api/whoami
+
 {
-  "ipaddress": "73.166.56.63",
+  "ipaddress": "::ffff:127.0.0.1",
   "language": "en-US",
-  "software": "Windows NT 10.0; Win64; x64"
+  "software": "os: Windows 10.0, Browser: Chrome"
 }
 
 ```
