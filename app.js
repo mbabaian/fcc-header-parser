@@ -12,7 +12,7 @@ app.use(cors())
 app.use(useragent.express())
 
 // API url 
-var api = 'https://mbabaian-whoami.glitch.me/api/whoami'
+var api = '/api/whoami'
 
 app.get(api, function(req, res, next) {
     var language = req.acceptsLanguages()
